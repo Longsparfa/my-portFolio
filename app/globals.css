@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Space Grotesk, sans-serif;
+  font-size: 1.6rem;
+  background: #0f1624;
+  color: hsl(204, 23.8%, 95.9%);
+  cursor: default;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: Space Grotesk, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.bg-white-gradient {
+  background: linear-gradient(
+    121.57deg,
+    #ffffff 18.77%,
+    rgba(255, 255, 255, 0.66) 60.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.bt-divgradient {
+  background: linear-gradient(270deg, #ff622e 0%, #b133ff 100%);
+}
+
+.bt-gradient {
+  background: linear-gradient(270deg, #f46737 0%, #945dd6 100%);
+}
+
+.bg-secdividerCA-gradient {
+  background: linear-gradient(270deg, #f46737 0%, #945dd6 100%);
+}
+
+.bg-secdivider-gradient {
+  background: linear-gradient(270deg, #13ADC7 0%, #945DD6 100%);
+}
+
+.box-shadow {
+  box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15),
+    inset 0px 0px 4px rgba(20, 20, 55, 0.3);
+}
+
+.blogCard-box {
+  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+}
