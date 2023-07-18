@@ -5,7 +5,7 @@ export const projects = [
       image: '/images/P1.png',
       tags: ['React', 'CSS'],
       source: 'https://github.com/Longsparfa/restuarant-app',
-      visit: 'https://google.com',
+      visit: 'https://restuarant-app-parfa.vercel.app/',
       id: 0,
     },
 
