@@ -8,7 +8,7 @@ const Timeline = () => {
         <p className='max-w-[800px] text-[24px] sm:text-[16px] leading-[40px] sm:leading-[24px] text-[300] pb-[3.6rem] md:pb-[24px] text-[rgba(255,_255,_255,_0.5)] md:max-w-[670px] md:text-[20px] md:leading-[32px]'>
             I'm so much interested in web 2.0 because i believe that a solid background here, will help me thrive in the web 3.0 world which is undeniably the future.
         </p>
-        <ul className='max-w-[1040px] bg-[#0f1624] p-[0rem] flex justify-between mb-[80px]'>
+        <ul className='grid grid-cols-3 gap-[40px] my-[3rem] mx-0 lg:my-[64px] lg:mx-0 md:mt-[64px] md:mb[0] md:gap-[24px] sm:my-[32px]'>
             {TimeLineData.map((t, index) => (
                     <li key={index} >
                         {t.year} - <span>{t.text}</span>
@@ -19,5 +19,7 @@ const Timeline = () => {
     </section>
   )
 }
+//grid grid-cols-3 gap-[40px] my-[3rem] mx-0 lg:my-[64px] lg:mx-0 md:mt-[64px] md:mb[0] md:gap-[24px] sm:my-[32px]
+//max-w-[1040px] bg-[#0f1624] p-[0rem] flex justify-between mb-[80px]
 
 export default Timeline;

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { projects } from '../constants/constants';
 
 const Projects = () => {
@@ -12,7 +13,9 @@ const Projects = () => {
                <div className='rounded-[10px] blogCard-box text-center w-[400px] sm:w-[100%]' key={project.id}>
                     <img src={project.image} alt={project.title} className='w-[100%] h-[100%] object-cover overflow-hidden' />
                     <div className='text-center z-index-20 w-[100%]'>
-                        <h3 className='font-medium tracking-[2px] text-[#9cc9e3] py-[0.5rem] px-0 text-[3rem]'>{project.title}</h3>
+                        <Link href={project.visit} className='cursor-pointer' >
+                         <h3 className='font-medium tracking-[2px] text-[#9cc9e3] py-[0.5rem] px-0 text-[3rem]'>{project.title}</h3>
+                        </Link>
                         <hr className='w-[50px] h-[3px] my-[20px] mx-auto border-0 bg-[#d0bb57]' />
                     </div>
                     <p className='w-[100%] py-0 px-[50px] text-[#e4e6e7] leading-[24px] text-justify sm:p-.3rem'>{project.description}</p>

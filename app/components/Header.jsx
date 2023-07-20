@@ -11,20 +11,20 @@ import { DiCss3Full } from 'react-icons/di';
 
 const Header = () => {
   return (
-    <div className='grid grid-cols-3 gap-x-8 grid-rows-1 p-[1rem] pt-[2rem]  '>
+    <div className='grid grid-cols-3 grid-rows-1  '>
 
-        <div className='row-start-1 column-start-1 row-end-2 column-end-2'>
+        <div className='col-start-1'>
             <Link href="/" className='flex align-center text-white'>
                     <DiCss3Full size="3rem" /> <span>Parfa</span>
             </Link>
         </div>
 
-        <div className='row-start-1 column-start-1 row-end-2 column-end-2 flex justify-around align-center'>
+        <div className='col-start-3 flex justify-around align-center sm:text-[16px]'>
           
-            <Link href="#projects" className='text-[2rem] leading-[32px] transition bg-[rgba(255, 255, 255, 0.75)] 0.4s ease hover:text-white'>
+            <Link href="#projects" className='text-[2rem] leading-[32px] transition bg-[rgba(255, 255, 255, 0.75)] 0.4s ease mr-4 hover:text-white'>
               Projects
             </Link>
-            <Link href="#tech" className='text-[2rem] leading-[32px] transition bg-[rgba(255, 255, 255, 0.75)] 0.4s ease hover:text-white'>
+            <Link href="#tech" className='text-[2rem] leading-[32px] transition bg-[rgba(255, 255, 255, 0.75)] 0.4s ease mr-4 hover:text-white'>
                Technologies
             </Link>
             <Link href="#about" className='text-[2rem] leading-[32px] transition bg-[rgba(255, 255, 255, 0.75)] 0.4s ease hover:text-white'>
@@ -33,7 +33,7 @@ const Header = () => {
           
         </div>
 
-        <div className='row-start-1 column-start-5 row-end-2 column-end-6 flex justify-around align-center'>
+        <div className='hidden sm:flex col-start-2 row-start-1 '>
           <Link href="https://github.com/Longsparfa" className='transition 0.3s ease text-white rounded-[50px] p-[8px] hover:bg-[#212d45] cursor-pointer'>
              <AiFillGithub size="3rem" />
           </Link>

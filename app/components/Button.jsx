@@ -7,7 +7,7 @@ import React from 'react';
 const Button = () => {
   return (
     <div className='w-[262px] h-[64px] rounded-[50px] text-[24px] text-[600] flex align-center justify-center mt-0 mx-0 mb-[80px] text-[#fff] bt-divgradient cursor-pointer transition 0.5s ease relative overflow-hidden opacity-100 sm:text-[16px] sm:w-[100%] sm:h-[32px] '>
-        <a href='mailto:longsparfa@gmail.com' className=''>Learn More</a>
+        <a href='mailto:longsparfa@gmail.com' className='text-center pt-2'>Ask Me</a>
     </div>
   );
 }
