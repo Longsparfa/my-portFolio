@@ -11,7 +11,7 @@ import Timeline from "./components/Timeline";
 export default function Home() {
   return (
    <>
-     <div className="max-w-[1280px] w-[100%] m-auto">
+     <div className="max-w-[1280px] w-[100%] my-0 mx-auto">
        <Header />
        <section className='grid pt-[32px] px-[48px] pb-0 my-0 mx-auto max-w-[1040px] box-content relative overflow-hidden grid-cols-2'>
          <Hero />

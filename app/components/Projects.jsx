@@ -30,8 +30,8 @@ const Projects = () => {
                       </ul>
                     </div>
                     <ul className='p-0 flex justify-around my-[2.5rem] mx-0'>
-                        <li><a className='text-[#d4c0c0] text-[1.6rem] py-[1rem] px-[1.5rem] bg-[#6b3030] rounded-[15px] transition 0.5s hover:bg-[#801414]' href={project.visit}>seeLive</a></li>
-                        <li><a className='text-[#d4c0c0] text-[1.6rem] py-[1rem] px-[1.5rem] bg-[#6b3030] rounded-[15px] transition 0.5s hover:bg-[#801414]' href={project.source}>sourceCode</a></li>
+                        <li><a className='text-[#d4c0c0] text-[1.6rem] py-[1rem] px-[1.5rem] bg-[#6b3030] rounded-[15px] transition 0.5s hover:bg-[#801414]' href={project.visit}>SeeLive</a></li>
+                        <li><a className='text-[#d4c0c0] text-[1.6rem] py-[1rem] px-[1.5rem] bg-[#6b3030] rounded-[15px] transition 0.5s hover:bg-[#801414]' href={project.source}>SourceCode</a></li>
                     </ul>
                 </div>
 

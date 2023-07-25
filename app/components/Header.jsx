@@ -11,7 +11,7 @@ import { DiCss3Full } from 'react-icons/di';
 
 const Header = () => {
   return (
-    <div className='grid grid-cols-3 grid-rows-1  '>
+    <div className='grid grid-cols-3 grid-rows-1 p-1 pt-2 '>
 
         <div className='col-start-1'>
             <Link href="/" className='flex align-center text-white'>
