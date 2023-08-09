@@ -1,11 +1,11 @@
 export const projects = [
     {
-      title: 'Restuarant App',
-      description: "This is a restuarant website that displays services offered, dishes & cousines as well as cocktails.",
-      image: '/images/P1.png',
-      tags: ['React', 'CSS'],
-      source: 'https://github.com/Longsparfa/restuarant-app',
-      visit: 'https://restuarant-app-parfa.vercel.app/',
+      title: 'Basic Calculator App',
+      description: "This is website contains a very basic market calculator that functions accordingly.",
+      image: '/images/P5.png',
+      tags: ['React', 'Tailwindcss'],
+      source: 'https://github.com/Longsparfa/calculator-app',
+      visit: 'https://calculator-app-psi-ten.vercel.app/', 
       id: 0,
     },
 
@@ -37,6 +37,16 @@ export const projects = [
       source: 'https://github.com/Longsparfa/simple-problems',
       visit: 'https://simple-problems-games.vercel.app/',
       id: 3,
+    },
+
+    {
+      title: 'Restuarant App',
+      description: "This is a restuarant website that displays services offered, dishes & cousines as well as cocktails.",
+      image: '/images/P1.png',
+      tags: ['React', 'CSS'],
+      source: 'https://github.com/Longsparfa/restuarant-app',
+      visit: 'https://restuarant-app-parfa.vercel.app/', 
+      id: 5,
     },
   ];
   
