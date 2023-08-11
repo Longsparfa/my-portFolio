@@ -19,12 +19,20 @@ module.exports = {
         main: "Space Grotesk, sans-serif"
       },
     },
-    breakpoints: {
-      sm: 'screen and (max-width: 640px)',
-      md: 'screen and (max-width: 768px)',
-      lg: 'screen and (max-width: 1024px)',
-      xl: 'screen and (max-width: 1280px)'
+
+    screens: {
+      'xl': {'max': '1280px'},
+      'lg': {'max': '1024px'},
+      'md': {'max': '768px'},
+      'sm': {'max': '640px'},
     }
+
+    // breakpoints: {
+    //   sm: 'screen and (max-width: 640px)',
+    //   md: 'screen and (max-width: 768px)',
+    //   lg: 'screen and (max-width: 1024px)',
+    //   xl: 'screen and (max-width: 1280px)'
+    // }
   },
   plugins: [],
 }

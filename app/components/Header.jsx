@@ -27,13 +27,13 @@ const Header = () => {
             <Link href="#tech" className='text-[2rem] leading-[32px] transition bg-[rgba(255, 255, 255, 0.75)] 0.4s ease mr-4 hover:text-white'>
                Technologies
             </Link>
-            <Link href="#about" className='text-[2rem] leading-[32px] transition bg-[rgba(255, 255, 255, 0.75)] 0.4s ease hover:text-white'>
+            <Link href="#about" className='text-[2rem] leading-[32px] transition bg-[rgba(255, 255, 255, 0.75)] 0.4s ease mr-4 hover:text-white'>
               About
             </Link>
           
         </div>
 
-        <div className='hidden sm:flex col-start-2 row-start-1 '>
+        <div className='sm:hidden flex col-start-2 row-start-1 '>
           <Link href="https://github.com/Longsparfa" className='transition 0.3s ease text-white rounded-[50px] p-[8px] hover:bg-[#212d45] cursor-pointer'>
              <AiFillGithub size="3rem" />
           </Link>
