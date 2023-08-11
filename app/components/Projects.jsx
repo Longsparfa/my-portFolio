@@ -4,13 +4,13 @@ import { projects } from '../constants/constants';
 
 const Projects = () => {
   return (
-    <section className='flex flex-col p-0 my-0 mx-auto max-w-[1040px] box-content relative overflow-hidden grid-cols-1 md:flex-col sm:pt-0 sm:w-[calc(100vw_-_32px)]' id='projects'>
+    <section className='flex flex-col p-0 my-0 mx-auto max-w-[1040px] box-content relative overflow-hidden grid-cols-1 md:flex-col sm:pt-0 sm:w-[calc(100vw_-_32px)] sm:p-14' id='projects'>
         <div className='w-[64px] h-[6px] rounded-[10px] bg-white bg-secdividerCA-gradient' />
         <h2 className='font-extrabold text-[65px] leading-[72px] w-max-content max-w-[100%] bg-white-gradient mb-[16px] pt-[58px] px-0 pb-[16px] md:text-[56px] md:leading-[56px] md:mb-[12px] md:pt-[40px] md:pb-[12px] sm:text-[28px] sm:leading-[32px] md:mb-[8px] sm:pt-[16px] sm:pb-[8px]'>Projects</h2>
         <section className='grid grid-cols-[repeat(auto-fill,_minmax(400px,_1fr))] p-[3rem] place-items-center gap-x-[2rem] gap-y-[3rem] sm:p-[2rem] sm:pb-0 '>
             {projects.map(project => {
                 return (
-               <div className='rounded-[10px] blogCard-box text-center w-[400px] sm:w-[100%]' key={project.id}>
+               <div className='rounded-[10px] blogCard-box text-center w-[400px] ' key={project.id}>
                     <img src={project.image} alt={project.title} className='w-[100%] h-[100%] object-cover overflow-hidden' />
                     <div className='text-center z-index-20 w-[100%]'>
                         <Link href={project.visit} className='cursor-pointer' >
