@@ -1,17 +1,20 @@
-import Link from 'next/link';
+//"use client"
 import React from 'react';
+import Link from 'next/link';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCss3Full } from 'react-icons/di';
+import Toggle from './Toggle';
 
-//first-div grid grid-cols-5 gap-2 grid-rows-1 p-1 pt-2 sm:grid-rows-5 gap-0.5 gap-0.5
-// 2nd-div row-start-1 col-1 row-end-2 col-end-2 flex flex-row align-center sm:row-start-1 col-1 row-end-2 col-end-3
-//3rd row-start-1 col-start-1 row-end-2 col-end-4 flex justify-around sm:row-start-2 col-2 row-end-3 col-end-5
-//row-start-1 col-1 row-end-2 col-end-2 flex justify-space-around align-center sm:row-start-1 col-4 row-end-2 col-end-6
+
+
+
+
 
 
 const Header = () => {
+  
   return (
-    <div className='grid grid-cols-3 grid-rows-1 p-1 pt-2 '>
+    <div className='grid grid-cols-3 grid-rows-1 md:grid-cols-2 px-8 pt-5 '>
 
         <div className='col-start-1'>
             <Link href="/" className='flex align-center text-white'>
@@ -19,21 +22,23 @@ const Header = () => {
             </Link>
         </div>
 
-        <div className='col-start-3 flex justify-around align-center sm:text-[16px]'>
+        <div className='col-start-3 flex justify-around align-center md:hidden sm:text-[16px]'>
           
-            <Link href="#projects" className='text-[2rem] leading-[32px] transition bg-[rgba(255, 255, 255, 0.75)] 0.4s ease mr-4 hover:text-white'>
+            <Link href="#projects" className='text-[2rem] leading-[32px] text-[rgba(255,255,255,0.75)] transition 0.4s ease mr-4 hover:text-white'>
               Projects
             </Link>
-            <Link href="#tech" className='text-[2rem] leading-[32px] transition bg-[rgba(255, 255, 255, 0.75)] 0.4s ease mr-4 hover:text-white'>
+            <Link href="#tech" className='text-[2rem] leading-[32px] text-[rgba(255,255,255,0.75)] transition 0.4s ease mr-4 hover:text-white'>
                Technologies
             </Link>
-            <Link href="#about" className='text-[2rem] leading-[32px] transition bg-[rgba(255, 255, 255, 0.75)] 0.4s ease mr-4 hover:text-white'>
+            <Link href="#about" className='text-[2rem] leading-[32px] text-[rgba(255,255,255,0.75)] transition 0.4s ease mr-4 hover:text-white'>
               About
             </Link>
           
         </div>
 
-        <div className='sm:hidden flex col-start-2 row-start-1 '>
+        
+
+        <div className='md:hidden flex col-start-2 row-start-1 '>
           <Link href="https://github.com/Longsparfa" className='transition 0.3s ease text-white rounded-[50px] p-[8px] hover:bg-[#212d45] cursor-pointer'>
              <AiFillGithub size="3rem" />
           </Link>
@@ -44,6 +49,7 @@ const Header = () => {
                <AiFillInstagram size="3rem"/>
           </Link>
         </div>
+        <Toggle />
 
     </div>
   );
