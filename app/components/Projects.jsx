@@ -14,13 +14,13 @@ const Projects = () => {
                     <img src={project.image} alt={project.title} className='w-[100%] h-[100%] object-cover overflow-hidden' />
                     <div className='text-center z-20 w-[100%]'>
                         <Link href={project.visit} className='cursor-pointer' >
-                         <h3 className='font-medium tracking-[2px] text-[#9cc9e3] py-[0.5rem] px-0 text-[3rem]'>{project.title}</h3>
+                         <h3 className='font-medium tracking-[2px] text-[#9cc9e3] py-[0.5rem] px-0 text-[3rem] sm:text-[2rem]'>{project.title}</h3>
                         </Link>
                         <hr className='w-[50px] h-[3px] my-[20px] mx-auto border-0 bg-[#d0bb57]' />
                     </div>
-                    <p className='w-[100%] py-0 px-[50px] text-[#e4e6e7] leading-[24px] text-justify sm:p-.3rem'>{project.description}</p>
+                    <p className='w-[100%] py-0 px-[50px] text-[#e4e6e7] leading-[24px] text-justify sm:text-center sm:p-.3rem'>{project.description}</p>
                     <div>
-                      <div className='text-center z-index-20 w-[100%]'>Stack</div>
+                      <div className='text-center z-20 w-[100%]'>Stack</div>
                       <ul className='flex justify-around p-[2rem]'>
                         {project.tags.map((t, i) => {
                             return (
