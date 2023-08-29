@@ -1,11 +1,11 @@
 export const projects = [
     {
-      title: 'Basic Calculator App',
-      description: "This is website contains a very basic market calculator that functions accordingly.",
-      image: '/images/P5.png',
-      tags: ['React', 'Tailwindcss'],
-      source: 'https://github.com/Longsparfa/calculator-app',
-      visit: 'https://calculator-app-psi-ten.vercel.app/', 
+      title: 'Under Construction',
+      description: "This is a modern E-commerce website built with the following fascinating technologies.",
+      image: '/images/P6.png',
+      tags: ['React', 'Tailwindcss', 'Firebase', 'Stripe'],
+      source: 'https://github.com/Longsparfa/my-Eshop',
+      visit: 'https://my-eshop-cyan.vercel.app/',
       id: 0,
     },
 
@@ -20,12 +20,12 @@ export const projects = [
     },
 
     {
-      title: 'Hoobank',
-      description: "This is a modern website built with fascinating technologies.",
-      image: '/images/P3.png',
+      title: 'Basic Calculator App',
+      description: "This is website contains a very basic market calculator that functions accordingly.",
+      image: '/images/P5.png',
       tags: ['React', 'Tailwindcss'],
-      source: 'https://github.com/Longsparfa/hoobank',
-      visit: 'https://hoobank-rouge.vercel.app/',
+      source: 'https://github.com/Longsparfa/calculator-app',
+      visit: 'https://calculator-app-psi-ten.vercel.app/', 
       id: 2,
     },
     
@@ -39,15 +39,8 @@ export const projects = [
       id: 3,
     },
 
-    {
-      title: 'Restuarant App',
-      description: "This is a restuarant website that displays services offered, dishes & cousines as well as cocktails.",
-      image: '/images/P1.png',
-      tags: ['React', 'CSS'],
-      source: 'https://github.com/Longsparfa/restuarant-app',
-      visit: 'https://restuarant-app-parfa.vercel.app/', 
-      id: 5,
-    },
+    
+    
   ];
   
   export const TimeLineData = [
