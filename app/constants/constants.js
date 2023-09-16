@@ -1,12 +1,22 @@
 export const projects = [
     {
+      title: 'A Movie Discovery Website',
+      description: "This is a movie discovery web app that allows users to search for movies and view details about them. It was developed with data consumed from the TMDB API",
+      image: '/images/P6.png',
+      tags: ['ReactJS', 'Tailwindcss', 'JavaScript'],
+      source: 'https://github.com/Longsparfa/movie-discovery',
+      visit: 'https://movie-discovery.zeta.vercel.app/',
+      id: 0,
+    },
+
+    {
       title: 'Under Construction',
       description: "This is a modern E-commerce website built with the following fascinating technologies.",
-      image: '/images/P6.png',
+      image: '/images/P1.png',
       tags: ['React', 'Tailwindcss', 'Firebase', 'Stripe'],
       source: 'https://github.com/Longsparfa/my-Eshop',
       visit: 'https://my-eshop-cyan.vercel.app/',
-      id: 0,
+      id: 1,
     },
 
     {
@@ -16,7 +26,7 @@ export const projects = [
       tags: ['React', 'Tailwindcss'],
       source: 'https://https://github.com/Longsparfa/Ideosphere',
       visit: 'https://parfa-ideosphereclone.vercel.app/',
-      id: 1,
+      id: 2,
     },
 
     {
@@ -26,18 +36,9 @@ export const projects = [
       tags: ['React', 'Tailwindcss'],
       source: 'https://github.com/Longsparfa/calculator-app',
       visit: 'https://calculator-app-psi-ten.vercel.app/', 
-      id: 2,
-    },
-    
-    {
-      title: 'Simple problems/challenges',
-      description: "These are simple problems that calculates age in days, generates pictures as well as the rock paper scissors game-humans to play against computer",
-      image: '/images/P4.png',
-      tags: ['HTML', 'CSS', 'JavaScript'],
-      source: 'https://github.com/Longsparfa/simple-problems',
-      visit: 'https://simple-problems-games.vercel.app/',
       id: 3,
     },
+    
 
     
     
