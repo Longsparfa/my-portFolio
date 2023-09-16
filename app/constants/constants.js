@@ -5,7 +5,7 @@ export const projects = [
       image: '/images/P6.png',
       tags: ['ReactJS', 'Tailwindcss', 'JavaScript'],
       source: 'https://github.com/Longsparfa/movie-discovery',
-      visit: 'https://movie-discovery.zeta.vercel.app/',
+      visit: 'https://movie-discovery-zeta.vercel.app/',
       id: 0,
     },
 
