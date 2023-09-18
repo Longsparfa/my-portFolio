@@ -30,12 +30,12 @@ export const projects = [
     },
 
     {
-      title: 'Basic Calculator App',
-      description: "This is website contains a very basic market calculator that functions accordingly.",
-      image: '/images/P5.png',
+      title: 'Personal Finance Tracker',
+      description: "The Personal Finance tracker allows users to track their finances or even make their budget by adding items to the list of transactions as well as editing and deleting.",
+      image: '/images/P3.png',
       tags: ['React', 'Tailwindcss'],
-      source: 'https://github.com/Longsparfa/calculator-app',
-      visit: 'https://calculator-app-psi-ten.vercel.app/', 
+      source: 'https://github.com/Longsparfa/budget-tracker',
+      visit: 'https://budget-tracker-sooty-one.vercel.app/', 
       id: 3,
     },
     
