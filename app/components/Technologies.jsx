@@ -38,7 +38,7 @@ const Technologies = () => {
                     <DiGit size="3rem" />
                 </picture>
                 <div className='flex flex-col sm:flex sm:ml-[18px]'>
-                    <h4 className='text-bold text-[28px] leading-[32px] tracking-[0.02em] text-[#ffffff] mb-[8] md:text-[24px] md:leading-[28px] sm:text-[20px] sm:mb-[4px]'>Control Version</h4>
+                    <h4 className='text-bold text-[28px] leading-[32px] tracking-[0.02em] text-[#ffffff] mb-[8] md:text-[24px] md:leading-[28px] sm:text-[20px] sm:mb-[4px]'>Version Control System</h4>
                     <p className='text-[18px] leading-[30px] text-[rgba(255, 255, 255, 0.75)] md:text-[16px] md:leading-[28px] sm:text-[14px] sm:leading-[22px]'>Exprience with <br /> Git & Github</p>
                 </div>
             </li>
