@@ -15,11 +15,10 @@ const Timeline = () => {
                     </li>
             ))}
         </ul>
-        <div className='w-[64px] h-[6px] rounded-[10px] bg-white bg-secdivider-gradient' />
+        <div className='w-[64px] h-[6px] rounded-[10px] bg-[#d0bb57]' />
     </section>
   )
 }
-//grid grid-cols-3 gap-[40px] my-[3rem] mx-0 lg:my-[64px] lg:mx-0 md:mt-[64px] md:mb[0] md:gap-[24px] sm:my-[32px]
-//max-w-[1040px] bg-[#0f1624] p-[0rem] flex justify-between mb-[80px]
+
 
 export default Timeline;

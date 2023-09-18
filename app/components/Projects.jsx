@@ -5,7 +5,7 @@ import { projects } from '../constants/constants';
 const Projects = () => {
   return (
     <section className='flex flex-col p-0 my-0 mx-auto max-w-[1040px] box-content relative overflow-hidden grid-cols-1 md:flex-col sm:pt-0 sm:w-[calc(100vw_-_32px)] sm:pr-20' id='projects'>
-        <div className='w-[64px] h-[6px] ml-[2rem] rounded-[10px] bg-white bg-secdividerCA-gradient' />
+        <div className='w-[64px] h-[6px] ml-[2rem] rounded-[10px] bg-[#d0bb57]' />
         <h2 className='font-extrabold text-[65px] leading-[72px] w-max-content max-w-[100%] bg-white-gradient mb-[16px] pt-[58px] md:px-[48px] pb-[16px] md:text-[56px] md:leading-[56px] md:mb-[12px] md:pt-[40px] md:pb-[12px] sm:text-[28px] sm:leading-[32px] md:mb-[8px] sm:pt-[16px] sm:pb-[8px]'>Projects</h2>
         <section className='grid grid-cols-[repeat(auto-fill,_minmax(400px,_1fr))] place-items-center gap-x-[2rem] sm:gap-x-[5rem] gap-y-[3rem] '>
             {projects.map(project => {
