@@ -14,7 +14,7 @@ import Toggle from './Toggle';
 const Header = () => {
   
   return (
-    <div className='grid grid-cols-3 grid-rows-1 md:grid-cols-2 px-8 pt-5 '>
+    <div className='bg-[#B4BDFF] grid grid-cols-3 grid-rows-1 md:grid-cols-2 px-8 pt-5 '>
 
         <div className='col-start-1'>
             <Link href="/" className='flex align-center text-white'>

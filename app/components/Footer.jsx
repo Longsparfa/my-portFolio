@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
 const Footer = () => {
   return (
-    <section className='w-[calc(100vw_-_96px)] max-w-[1040px] pt-[2rem] px-[48px] pb-[40px] my-[1rem] mx-[auto] box-content sm:pt-[0] sm:px-[16px] sm:pb-[48px] sm:w-[calc(100vw_-_96px)]'>
+    <section className='bg-[#B4BDFF] w-[calc(100vw_-_96px)] max-w-[1040px] pt-[2rem] px-[48px] pb-[40px] my-[1rem] mx-[auto] box-content sm:pt-[0] sm:px-[16px] sm:pb-[48px] sm:w-[calc(100vw_-_96px)]'>
         <ul className='border-t-[1px] border-solid border-[rgba(255, 255, 255, 0.1)] grid grid-cols-3 gap-[40px] pt-[40px] px-[0] pb-[28px] lg:pt-[32px] lg:px-0 lg:pb-[16px] md:w-[100%] md:gap-[16px] sm:pr-[4px] sm:gap-[4px]'>
             <div className='flex flex-col max-w-[220px] w-[100%]'>
                <h4 className='not-italic font-semibold text-[12px] leading-[24px] uppercase text-[rgba(255, 255, 255, 0.4)] mb-[16px] sm:text-[10px] sm:leading-[12px] sm:mb-[8px]'>Call</h4>
