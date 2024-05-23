@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -16,7 +16,7 @@ html {
 body {
   font-family: Space Grotesk, sans-serif;
   font-size: 1.6rem;
-  background: #83A2FF;
+  background: #83a2ff;
   color: hsl(204, 23.8%, 95.9%);
   cursor: default;
 }
