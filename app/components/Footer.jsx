@@ -11,7 +11,7 @@ const Footer = () => {
             Call
           </h4>
           <a
-            className="text-[16px] leading-[30px] text-[rgba(255, 255, 255, 0.75)] mb-[16px] transition 0.3s ease relative left-0 hover:text[#fff] hover:left-[6px]"
+            className="sm:text-[8px] md:text-[15px] text-[18px] leading-[30px] text-[rgba(255, 255, 255, 0.75)] mb-[16px] transition 0.3s ease relative left-0 hover:text[#fff] hover:left-[6px]"
             href="tel:+234-806-037-5723"
           >
             +234-806-037-5723
@@ -22,7 +22,7 @@ const Footer = () => {
             Email
           </h4>
           <a
-            className="text-[18px] leading-[30px] text-[rgba(255, 255, 255, 0.75)] mb-[16px] transition 0.3s ease relative left-0 hover:text[#fff] hover:left-[6px]"
+            className="sm:text-[8px] md:text-[15px] text-[18px] leading-[30px] text-[rgba(255, 255, 255, 0.75)] mb-[16px] transition 0.3s ease relative left-0 hover:text[#fff] hover:left-[6px]"
             href="mailto:longsparfa@gmail.com"
           >
             longsparfa@gmail.com

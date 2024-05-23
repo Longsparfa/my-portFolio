@@ -45,16 +45,16 @@ const Projects = () => {
                   })}
                 </ul>
               </div>
-              <ul className="p-0 flex justify-around my-[2.5rem] mx-0">
-                <li>
+              <ul className="p-0 flex justify-around my-[2.5rem] mx-0 ">
+                <li className="overflow-y-hidden">
                   <a
-                    className="text-[#242424] text-[1.6rem] py-[1rem] px-[1.5rem] bg-[#B4BDFF] rounded-[15px] transition 0.5s hover:bg-[#83A2FF]"
+                    className="text-[#242424] text-[1.6rem] py-[1rem] px-[1.5rem] bg-[#B4BDFF] rounded-[15px] transition 0.5s hover:bg-[#83A2FF] overflow-y-hidden "
                     href={project.visit}
                   >
                     SeeLive
                   </a>
                 </li>
-                <li>
+                <li className="overflow-y-hidden">
                   <a
                     className="text-[#242424] text-[1.6rem] py-[1rem] px-[1.5rem] bg-[#B4BDFF] rounded-[15px] transition 0.5s hover:bg-[#83A2FF]"
                     href={project.source}
