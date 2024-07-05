@@ -5,22 +5,27 @@ import { projects } from "../constants/constants";
 const Projects = () => {
   return (
     <section
-      className="flex flex-col p-0 my-0 mx-auto max-w-[1040px] box-content relative overflow-hidden grid-cols-1 md:flex-col sm:pt-0 sm:w-[calc(100vw_-_32px)] sm:pr-20"
+      className="flex flex-col p-0 my-0 mx-auto max-w-[1040px] md:flex-col sm:pt-0 sm:w-[calc(100vw_-_32px)]"
       id="projects"
     >
       <section className="grid grid-cols-[repeat(auto-fill,_minmax(400px,_1fr))] xl:place-items-center gap-x-[2rem] sm:gap-x-[5rem] gap-y-[3rem] ">
         {projects.map((project) => {
           return (
             <div
-              className="bg-[#FFB3EE] rounded-[10px] blogCard-box text-center w-[400px] sm:w-[300px] "
+            className="bg-white rounded-[10px] w-full shadow-md hover:shadow-lg transition duration-500"
+              // className="bg-white rounded-[10px] blogCard-box text-center w-[400px]  sm:w-[300px] "
               key={project.id}
             >
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-[100%] h-[100%] object-cover overflow-hidden"
+                // className="w-[400px] h-[250px] "
+                className="w-full h-[250px] object-cover rounded-t-[10px]"
               />
-              <div className="text-center z-20 w-[100%]">
+              <div 
+              // className="text-center z-20 w-[100%]"
+              className="p-6"
+              >
                 <Link href={project.visit} className="cursor-pointer">
                   <h3 className="font-medium tracking-[2px] text-[#000] py-[0.5rem] px-0 text-[3rem] sm:text-[2rem]">
                     {project.title}
@@ -28,7 +33,7 @@ const Projects = () => {
                 </Link>
                 <hr className="w-[50px] h-[3px] my-[20px] mx-auto border-0 bg-[#B4BDFF]" />
               </div>
-              <p className="w-[100%] py-0 px-[50px] text-[#202020] leading-[24px] text-justify sm:text-center sm:p-.3rem">
+              <p className="h-[120px] overflow-y-hidden py-0 px-[50px] text-[#202020] leading-[24px] text-justify sm:text-center sm:p-.3rem">
                 {project.description}
               </p>
               <div>
@@ -72,3 +77,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
+

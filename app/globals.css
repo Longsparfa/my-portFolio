@@ -17,7 +17,7 @@ html {
 body {
   font-family: Space Grotesk, sans-serif;
   font-size: 1.6rem;
-  background: #83a2ff;
+  background: #444;
   color: hsl(204, 23.8%, 95.9%);
   cursor: default;
 }
@@ -73,6 +73,7 @@ li {
 
 .blogCard-box {
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  height: 500px;
 }
 
 .slide-bottom {

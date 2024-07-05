@@ -1,19 +1,28 @@
 export const projects = [
   {
+    title: "Healthcare Dashboard",
+    description: "Fetch all patients from an API and displays patient info like diagnosis history, diagnosis list, lab results, and other personal data of patient depending on which patient is clicked.",
+    image: "/images/P5.png",
+    tags: ["ReactJs", "Tailwindcss", "Patients API"],
+    source: "https://github.com/Longsparfa/tech-care",
+    visit: "https://tech-care-eta.vercel.app",
+    id: 6,
+  },
+  {
     title: "Frontend Amazon Clone",
     description: "Displays available products in a visually appealling way. ",
     image: "/images/P8.png",
     tags: ["React/Redux", "Tailwindcss", "JavaScript"],
     source: "https://github.com/Longsparfa/amazon-clone",
     visit: "https://frontend-amazon-clone-sable.vercel.app/",
-    id: 4,
+    id: 5,
   },
   {
     title: "A Movie Discovery Website",
     description:
       "This is a movie discovery web app that allows users to search for movies and view details about them. It was developed with data consumed from the TMDB API",
     image: "/images/P6.png",
-    tags: ["ReactJS", "Tailwindcss", "JavaScript"],
+    tags: ["ReactJS", "Tailwindcss", "TMDB API"],
     source: "https://github.com/Longsparfa/movie-discovery",
     visit: "https://movie-discovery-zeta.vercel.app/",
     id: 0,
