@@ -12,7 +12,7 @@ const Projects = () => {
         {projects.map((project) => {
           return (
             <div
-            className="bg-white rounded-[10px] w-full shadow-md hover:shadow-lg transition duration-500"
+              className="bg-white rounded-[10px] w-full shadow-md hover:shadow-lg transition duration-500"
               // className="bg-white rounded-[10px] blogCard-box text-center w-[400px]  sm:w-[300px] "
               key={project.id}
             >
@@ -22,11 +22,15 @@ const Projects = () => {
                 // className="w-[400px] h-[250px] "
                 className="w-full h-[250px] object-cover rounded-t-[10px]"
               />
-              <div 
-              // className="text-center z-20 w-[100%]"
-              className="p-6"
+              <div
+                // className="text-center z-20 w-[100%]"
+                className="p-6"
               >
-                <Link href={project.visit} className="cursor-pointer">
+                <Link
+                  target="_blank"
+                  href={project.visit}
+                  className="cursor-pointer"
+                >
                   <h3 className="font-medium tracking-[2px] text-[#000] py-[0.5rem] px-0 text-[3rem] sm:text-[2rem]">
                     {project.title}
                   </h3>
@@ -50,9 +54,10 @@ const Projects = () => {
                   })}
                 </ul>
               </div>
-              <ul className="p-0 flex justify-around my-[2.5rem] mx-0 ">
+              <ul className="pr-10 md:p-0 flex justify-around my-[2.5rem] mx-0 ">
                 <li className="overflow-y-hidden">
                   <a
+                    target="_blank"
                     className="text-[#242424] text-[1.6rem] py-[1rem] px-[1.5rem] bg-[#B4BDFF] rounded-[15px] transition 0.5s hover:bg-[#83A2FF] overflow-y-hidden "
                     href={project.visit}
                   >
@@ -61,6 +66,7 @@ const Projects = () => {
                 </li>
                 <li className="overflow-y-hidden">
                   <a
+                    target="_blank"
                     className="text-[#242424] text-[1.6rem] py-[1rem] px-[1.5rem] bg-[#B4BDFF] rounded-[15px] transition 0.5s hover:bg-[#83A2FF]"
                     href={project.source}
                   >
@@ -77,5 +83,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-
