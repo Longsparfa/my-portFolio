@@ -3,9 +3,7 @@ import React, { useState } from "react";
 //import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
-const Toggle = () => {
-  const [toggle, setToggle] = useState(false);
-
+const Toggle = ({ toggle, setToggle }) => {
   return (
     <div className="hidden md:flex justify-end">
       {toggle ? (
@@ -22,29 +20,6 @@ const Toggle = () => {
           className="cursor-pointer"
           onClick={() => setToggle(true)}
         />
-      )}
-
-      {toggle && (
-        <div className=" flex justify-end items-end flex-col text-center bg-[#B4BDFF] p-[2rem] mt-[1rem] min-w-[210px] rounded-[5px] shadow-[0_0_10px_rgba(0,0,0,0.2)]">
-          <a
-            href="#projects"
-            className="text-[2rem] leading-[32px] my-[1rem] mx-0 text-[rgba(255,255,255,0.75)] transition 0.4s ease mr-4 hover:text-white"
-          >
-            Project
-          </a>
-          <a
-            href="#tech"
-            className="text-[2rem] leading-[32px] my-[1rem] mx-0 text-[rgba(255,255,255,0.75)] transition 0.4s ease mr-4 hover:text-white"
-          >
-            Technologies
-          </a>
-          <a
-            href="#about"
-            className="text-[2rem] leading-[32px] my-[1rem] mx-0 text-[rgba(255,255,255,0.75)] transition 0.4s ease mr-4 hover:text-white"
-          >
-            About
-          </a>
-        </div>
       )}
     </div>
   );
