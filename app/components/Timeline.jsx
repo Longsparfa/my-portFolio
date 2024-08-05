@@ -16,7 +16,7 @@ const Timeline = () => {
         successfully solving a problem does something really good to me deep
         down. I love to build. Let's engage!
       </p>
-      <ul className="grid grid-cols-3 gap-[40px] my-[3rem] mx-0 lg:my-[64px] lg:mx-0 md:mt-[64px] md:mb[0] md:gap-[24px] sm:my-[32px]">
+      <ul className="grid grid-cols-3 gap-[40px] my-[3rem] mx-0 lg:my-[64px] lg:mx-0 md:mt-[64px] md:gap-[24px] sm:my-[32px]">
         {TimeLineData.map((t, index) => (
           <li key={index}>
             {t.year} - <span>{t.text}</span>
