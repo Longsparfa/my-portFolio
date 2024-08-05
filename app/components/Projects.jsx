@@ -8,7 +8,7 @@ const Projects = () => {
       className="flex flex-col p-0 my-0 mx-auto max-w-[1040px] md:flex-col sm:pt-0 sm:w-[calc(100vw_-_32px)]"
       id="projects"
     >
-      <section className="grid grid-cols-[repeat(auto-fill,_minmax(400px,_1fr))] xl:place-items-center gap-x-[2rem] sm:gap-x-[5rem] gap-y-[3rem] ">
+      <section className="grid grid-cols-[repeat(auto-fill,_minmax(400px,_1fr))] md:grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] xl:place-items-center gap-x-[2rem] sm:gap-x-[5rem] gap-y-[3rem] ">
         {projects.map((project) => {
           return (
             <div
