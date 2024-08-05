@@ -11,9 +11,10 @@ const Timeline = () => {
         About Me
       </h2>
       <p className="max-w-[800px] text-[24px] sm:text-[16px] leading-[40px] sm:leading-[24px] text-[300] pb-[3.6rem] md:pb-[24px] text-[rgba(255,_255,_255,_0.5)] md:max-w-[670px] md:text-[20px] md:leading-[32px]">
-        I'm so much interested in web 2.0 because i believe that a solid
-        background here, will help me thrive in the web 3.0 world which is
-        undeniably the future.
+        I'm a passionate Frontend developer with strong analytical skills. I
+        find solving problems fun because the feeling that comes after
+        successfully solving a problem does something really good to me deep
+        down. I love to build. Let's engage!
       </p>
       <ul className="grid grid-cols-3 gap-[40px] my-[3rem] mx-0 lg:my-[64px] lg:mx-0 md:mt-[64px] md:mb[0] md:gap-[24px] sm:my-[32px]">
         {TimeLineData.map((t, index) => (

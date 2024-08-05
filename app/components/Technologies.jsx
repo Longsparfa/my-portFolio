@@ -5,6 +5,9 @@ import {
   DiGit,
   DiFirebase,
   DiWordpress,
+  DiHtml5,
+  DiCss3,
+  DiJavascript,
 } from "react-icons/di";
 
 const Technologies = () => {
@@ -34,22 +37,52 @@ const Technologies = () => {
             <p className="text-[18px] leading-[30px] text-[rgba(255, 255, 255, 0.75)] md:text-[16px] md:leading-[28px] sm:text-[14px] sm:leading-[22px]">
               Exprience with
               <br />
-              React.js
+              React.js, NextJs & Typescript
             </p>
           </div>
         </li>
         <li className="max-w-[320px] flex flex-col md:max-w-[203px] sm:mb-[14px] sm:max-w-[320px] flex-row">
           <picture className="m-[2rem]">
-            <DiNodejs size="3rem" />
+            <DiJavascript size="3rem" />
           </picture>
           <div className="flex flex-col sm:flex sm:ml-[18px]">
             <h4 className="text-bold text-[28px] leading-[32px] tracking-[0.02em] text-[#ffffff] mb-[8] md:text-[24px] md:leading-[28px] sm:text-[20px] sm:mb-[4px]">
-              Front-End
+              JavaScript
             </h4>
             <p className="text-[18px] leading-[30px] text-[rgba(255, 255, 255, 0.75)] md:text-[16px] md:leading-[28px] sm:text-[14px] sm:leading-[22px]">
-              Familiarity with
+              Experience with
               <br />
-              Node.js
+              JavaScript programming
+            </p>
+          </div>
+        </li>
+        <li className="max-w-[320px] flex flex-col md:max-w-[203px] sm:mb-[14px] sm:max-w-[320px] flex-row">
+          <picture className="m-[2rem]">
+            <DiCss3 size="3rem" />
+          </picture>
+          <div className="flex flex-col sm:flex sm:ml-[18px]">
+            <h4 className="text-bold text-[28px] leading-[32px] tracking-[0.02em] text-[#ffffff] mb-[8] md:text-[24px] md:leading-[28px] sm:text-[20px] sm:mb-[4px]">
+              CSS
+            </h4>
+            <p className="text-[18px] leading-[30px] text-[rgba(255, 255, 255, 0.75)] md:text-[16px] md:leading-[28px] sm:text-[14px] sm:leading-[22px]">
+              Experience with
+              <br />
+              CSS, Tailwindcss & Bootstrap
+            </p>
+          </div>
+        </li>
+        <li className="max-w-[320px] flex flex-col md:max-w-[203px] sm:mb-[14px] sm:max-w-[320px] flex-row">
+          <picture className="m-[2rem]">
+            <DiHtml5 size="3rem" />
+          </picture>
+          <div className="flex flex-col sm:flex sm:ml-[18px]">
+            <h4 className="text-bold text-[28px] leading-[32px] tracking-[0.02em] text-[#ffffff] mb-[8] md:text-[24px] md:leading-[28px] sm:text-[20px] sm:mb-[4px]">
+              HTML
+            </h4>
+            <p className="text-[18px] leading-[30px] text-[rgba(255, 255, 255, 0.75)] md:text-[16px] md:leading-[28px] sm:text-[14px] sm:leading-[22px]">
+              Experience with
+              <br />
+              HTML
             </p>
           </div>
         </li>
@@ -85,7 +118,7 @@ const Technologies = () => {
           </picture>
           <div className="flex flex-col sm:flex sm:ml-[18px]">
             <h4 className="text-bold text-[28px] leading-[32px] tracking-[0.02em] text-[#ffffff] mb-[8] md:text-[24px] md:leading-[28px] sm:text-[20px] sm:mb-[4px]">
-              Back-End
+              Authentication
             </h4>
             <p className="text-[18px] leading-[30px] text-[rgba(255, 255, 255, 0.75)] md:text-[16px] md:leading-[28px] sm:text-[14px] sm:leading-[22px]">
               Exprience with <br /> Firebase

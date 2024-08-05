@@ -7,6 +7,10 @@ import Toggle from "./Toggle";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
+
+  function hideMenu() {
+    setToggle(false);
+  }
   return (
     <div className="fixed right-[2px] left-[2px] z-[1] bg-[#666] grid grid-cols-3 grid-rows-1 md:grid-cols-2 px-8 pt-5 ">
       <div className="col-start-1">
@@ -71,18 +75,21 @@ const Header = () => {
           <a
             href="#projects"
             className="text-[2rem] leading-[32px] my-[1rem] mx-0 text-[rgba(255,255,255,0.75)] transition 0.4s ease mr-4 hover:text-white"
+            onClick={hideMenu}
           >
             Project
           </a>
           <a
             href="#tech"
             className="text-[2rem] leading-[32px] my-[1rem] mx-0 text-[rgba(255,255,255,0.75)] transition 0.4s ease mr-4 hover:text-white"
+            onClick={hideMenu}
           >
             Technologies
           </a>
           <a
             href="#about"
             className="text-[2rem] leading-[32px] my-[1rem] mx-0 text-[rgba(255,255,255,0.75)] transition 0.4s ease mr-4 hover:text-white"
+            onClick={hideMenu}
           >
             About
           </a>

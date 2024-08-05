@@ -1,7 +1,8 @@
 export const projects = [
   {
     title: "Healthcare Dashboard",
-    description: "Fetch all patients from an API and displays patient info like diagnosis history, diagnosis list, lab results, and other personal data of patient depending on which patient is clicked.",
+    description:
+      "Fetch all patients from an API and displays patient info like diagnosis history, diagnosis list, lab results, and other personal data of patient depending on which patient is clicked.",
     image: "/images/P5.png",
     tags: ["ReactJs", "Tailwindcss", "Patients API"],
     source: "https://github.com/Longsparfa/tech-care",
@@ -76,5 +77,6 @@ export const TimeLineData = [
   { year: 2022, text: "Started my journey" },
   { year: 2023, text: "Working as a freelance Front-end developer" },
   { year: 2023, text: "Shared my projects with the world" },
-  { year: 2024, text: "Working with nHub Foundation Africa" },
+  { year: 2024, text: "Frontend instructor at nHub Foundation Africa" },
+  { year: 2024, text: "Frontend Mentor & Developer at Bluehouse Technologies" },
 ];
