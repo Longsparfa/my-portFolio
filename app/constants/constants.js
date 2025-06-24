@@ -1,5 +1,30 @@
 export const projects = [
   {
+    title: "Sparkling Event Planners",
+    description: "An event booking app.",
+    image: "/images/P9.png",
+    tags: [
+      "React",
+      "React-router-dom",
+      "react-phone-number-input",
+      "axios",
+      "Tailwindcss",
+    ],
+    source: "https://github.com/petergambo/Sparkling-Event",
+    visit: "https://Sparkling-Event.vercel.app/",
+    id: 9,
+  },
+  {
+    title: "Stellaux Global",
+    description:
+      "A fully functional and responsive web app to book consultation for your events",
+    image: "/images/P4.png",
+    tags: ["ReactJS", "Tailwindcss", "JavaScript"],
+    source: "https://github.com/Longsparfa/next-stella",
+    visit: "https://stellauxglobal.com",
+    id: 4,
+  },
+  {
     title: "Healthcare Dashboard",
     description:
       "Fetch all patients from an API and displays patient info like diagnosis history, diagnosis list, lab results, and other personal data of patient depending on which patient is clicked.",
@@ -7,7 +32,7 @@ export const projects = [
     tags: ["ReactJs", "Tailwindcss", "Patients API"],
     source: "https://github.com/Longsparfa/tech-care",
     visit: "https://tech-care-eta.vercel.app",
-    id: 6,
+    id: 5,
   },
   {
     title: "Frontend Amazon Clone",
@@ -16,7 +41,7 @@ export const projects = [
     tags: ["React/Redux", "Tailwindcss", "JavaScript"],
     source: "https://github.com/Longsparfa/amazon-clone",
     visit: "https://frontend-amazon-clone-sable.vercel.app/",
-    id: 5,
+    id: 8,
   },
   {
     title: "A Movie Discovery Website",
@@ -26,7 +51,7 @@ export const projects = [
     tags: ["ReactJS", "Tailwindcss", "TMDB API"],
     source: "https://github.com/Longsparfa/movie-discovery",
     visit: "https://movie-discovery-zeta.vercel.app/",
-    id: 0,
+    id: 6,
   },
 
   {
@@ -50,6 +75,16 @@ export const projects = [
     visit: "https://parfa-ideosphereclone.vercel.app/",
     id: 2,
   },
+  {
+    title: "An Image Gallery",
+    description:
+      "A fully functional and responsive image gallery that showcases a collection of images in a visually appealling way. It allwows a user to Login to the gallery page if registered. Once users are logged in they would be able to drag and drop images as well as effortlessly rearrange them within the gallery ",
+    image: "/images/P7.png",
+    tags: ["ReactJS", "Tailwindcss", "JavaScript"],
+    source: "https://github.com/Longsparfa/image-gallery",
+    visit: "https://comforting-ganache-393e38.netlify.app/",
+    id: 7,
+  },
 
   {
     title: "Personal Finance Tracker",
@@ -61,16 +96,6 @@ export const projects = [
     visit: "https://budget-tracker-sooty-one.vercel.app/",
     id: 3,
   },
-  {
-    title: "An Image Gallery",
-    description:
-      "A fully functional and responsive image gallery that showcases a collection of images in a visually appealling way. It allwows a user to Login to the gallery page if registered. Once users are logged in they would be able to drag and drop images as well as effortlessly rearrange them within the gallery ",
-    image: "/images/P7.png",
-    tags: ["ReactJS", "Tailwindcss", "JavaScript"],
-    source: "https://github.com/Longsparfa/image-gallery",
-    visit: "https://comforting-ganache-393e38.netlify.app/",
-    id: 4,
-  },
 ];
 
 export const TimeLineData = [
@@ -79,4 +104,5 @@ export const TimeLineData = [
   { year: 2023, text: "Shared my projects with the world" },
   { year: 2024, text: "Frontend instructor at nHub Foundation Africa" },
   { year: 2024, text: "Frontend Mentor & Developer at Bluehouse Technologies" },
+  { year: 2025, text: "Freelancer" },
 ];

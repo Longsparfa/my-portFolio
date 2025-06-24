@@ -1,4 +1,5 @@
 import React from "react";
+import { AiFillApi } from "react-icons/ai";
 import {
   DiReact,
   DiNodejs,
@@ -21,9 +22,9 @@ const Technologies = () => {
         Technologies
       </h2>
       <p className="max-w-[800px] text-[24px] sm:text-[16px] leading-[40px] sm:leading-[24px] text-[300] pb-[3.6rem] md:pb-[24px] text-[rgba(255,_255,_255,_0.5)] md:max-w-[670px] md:text-[20px] md:leading-[32px]">
-        I have worked with popular web development technologies like NodeJs,
-        ReactJs, Tailwindcss, Bootstrap and so on. I'm working really hard to
-        conquer both Back-end And Front-end
+        I have worked with popular web development technologies like Next.Js,
+        Typescript, ReactJs, Tailwindcss, Bootstrap and so on. I'm working
+        really hard to conquer both Back-end And Front-end
       </p>
       <ul className="grid grid-cols-3 gap-[40px] my-[3rem] mx-0 lg:my-[64px] lg:mx-0 md:mt-[64px] md:mb[0] md:gap-[24px] sm:my-[32px]">
         <li className="max-w-[320px] flex flex-col md:max-w-[203px] sm:mb-[14px] sm:max-w-[320px]">
@@ -101,14 +102,14 @@ const Technologies = () => {
         </li>
         <li className="max-w-[320px] flex flex-col md:max-w-[203px] sm:mb-[14px] sm:max-w-[320px] flex-row">
           <picture className="m-[2rem]">
-            <DiWordpress size="3rem" />
+            <AiFillApi size="3rem" />
           </picture>
           <div className="flex flex-col sm:flex sm:ml-[18px]">
             <h4 className="text-bold text-[28px] leading-[32px] tracking-[0.02em] text-[#ffffff] mb-[8] md:text-[24px] md:leading-[28px] sm:text-[20px] sm:mb-[4px]">
-              WP
+              API
             </h4>
             <p className="text-[18px] leading-[30px] text-[rgba(255, 255, 255, 0.75)] md:text-[16px] md:leading-[28px] sm:text-[14px] sm:leading-[22px]">
-              Exprience with <br /> WordPress
+              Exprience with <br /> Consumimg Api
             </p>
           </div>
         </li>
