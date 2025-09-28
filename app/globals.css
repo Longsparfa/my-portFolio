@@ -17,7 +17,7 @@ html {
 body {
   font-family: Space Grotesk, sans-serif;
   font-size: 1.6rem;
-  background: #444;
+  background-color: rgb(249, 251, 255);
   color: hsl(204, 23.8%, 95.9%);
   cursor: default;
 }
@@ -40,14 +40,71 @@ li {
   list-style: none;
 }
 
+.container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  width: 100%;
+  max-width: 1140px;
+}
+
+.bg-image {
+  background-image: url("/images/hero_bg_3.svg");
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 690px;
+  left: 56%;
+  position: absolute;
+  text-align: center;
+  top: 70px;
+  width: 500px;
+}
+
+.bg-image-mobile {
+  background-image: url("/images/hero_bg_3.svg");
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  /* height: 690px;
+  left: 15;
+  position: absolute;
+  text-align: center;
+  top: 90px;
+  width: 500px; */
+}
+
+.bg-azure-gradient {
+  background: linear-gradient(
+    121.57deg,
+    #0dcaf0 18.77%,
+    rgba(255, 255, 255) 60.15%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .bg-white-gradient {
   background: linear-gradient(
     121.57deg,
     #ffffff 18.77%,
     rgba(255, 255, 255, 0.66) 60.15%
   );
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.bg-experience-tag {
+  background: linear-gradient(
+    261deg,
+    rgb(255, 255, 255) -5.9%,
+    rgb(255, 241, 239) 23.95%,
+    rgb(224, 240, 255) 160.95%
+  );
 }
 
 .bt-divgradient {
@@ -66,6 +123,27 @@ li {
   background: linear-gradient(270deg, #13adc7 0%, #945dd6 100%);
 }
 
+.bg-card-header {
+  background: linear-gradient(135deg, #d5d4f0, #ffecea);
+}
+
+.bg-footer {
+  background: linear-gradient(
+    270deg,
+    rgba(25, 25, 25, 0),
+    rgb(33, 28, 120) 49.48%,
+    rgba(24, 20, 95, 0)
+  );
+}
+
+.cs_gradient_text_2 {
+  -webkit-text-fill-color: #0000;
+  background: linear-gradient(244deg, #151515, #ffeae8);
+  background: var(--gradient-1, linear-gradient(244deg, #bfc4c5, #ffeae8 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
 .box-shadow {
   box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15),
     inset 0px 0px 4px rgba(20, 20, 55, 0.3);
@@ -79,6 +157,17 @@ li {
 .slide-bottom {
   -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.animate_div {
+  position: absolute;
+  top: 70px;
+  animation: 2.5s ease 0s infinite alternate none running up_and_down;
+  width: 100%;
+}
+
+.rotate {
+  animation: rotate 3s ease-in-out 0s infinite normal none running;
 }
 
 @-webkit-keyframes slide-bottom {
@@ -102,3 +191,26 @@ li {
     transform: translateY(0);
   }
 }
+
+@keyframes up_and_down {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 20px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+

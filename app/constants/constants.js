@@ -106,3 +106,7 @@ export const TimeLineData = [
   { year: 2024, text: "Frontend Mentor & Developer at Bluehouse Technologies" },
   { year: 2025, text: "Freelancer" },
 ];
+
+export function getProjectById(id) {
+  return projects.find(project => project.id === Number(id))
+}
