@@ -80,7 +80,7 @@ const Header = ({ toggle, setToggle }) => {
         <Link href="/" className="flex items-center text-white">
           {/* <DiCss3Full size="3rem" />{" "} */}
           <span>
-            <Image src={logo} height={30} width={100} />
+            <Image src={logo} alt="logo" height={30} width={100} />
           </span>
         </Link>
       </div>
