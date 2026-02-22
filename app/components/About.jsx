@@ -87,7 +87,8 @@ const About = () => {
             />
           </p>
           <h2 className="font-[600] text-black text-[48px] leading-[1.2em] m-[0px] about_title">
-            Why you <span className="text-[#0dcaf0] h_m">hire me</span> for your{" "}
+            Why should you <span className="text-[#0dcaf0] h_m">hire me</span>{" "}
+            for your{" "}
             <span className="text-[rgb(52,46,173)] next_project">
               next project?
             </span>

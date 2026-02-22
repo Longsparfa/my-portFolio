@@ -7,26 +7,39 @@ const page = () => {
         Development Research
       </h2>
       <p className="text-black text-[18px] cs_portfolio_text">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-        ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
-        dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-        ultricies nec, pellentesque eu, pretium quis, sem.
+        To overcome the challenges mentioned above, we conducted an extensive
+        Research on the following topics:
       </p>
       <div className="cs_portfolio_details_wrap row">
         <div className="col-md-4">
-          <h4 className="cs_font_20 m-0">Stratagy</h4>
-          <p className="m-0">Company Branding, UX Strategy</p>
+          <h4 className="text-black font-bold cs_font_20 m-0">
+            Event Planning Industry Trends
+          </h4>
+          <p className="text-black m-0">
+            We studied the latest trends and best practices in event planning to
+            ensure our website reflected the highest level of expertise.
+          </p>
         </div>
         <div className="col-md-4">
-          <h4 className="cs_font_20 m-0">Project Type</h4>
-          <p className="m-0">UI/UX Design, Motion Design</p>
+          <h4 className="text-black cs_font_20 font-bold m-0">
+            User experience design
+          </h4>
+          <p className="text-black m-0">
+            We researched user experience design principles and best practices
+            to create an intuitive and user-friendly interace.
+          </p>
         </div>
         <div className="col-md-4">
-          <h4 className="cs_font_20 m-0">Client</h4>
-          <p className="m-0">Envato Elements</p>
+          <h4 className="text-black cs_font_20 font-bold m-0">
+            Next.js features
+          </h4>
+          <p className="text-black m-0">
+            We explored Next.js features, such as server-side rendering and
+            static site generation, to optimize the website's performance.
+          </p>
         </div>
       </div>
-      <img
+      {/* <img
         className="cs_protfolio_image w-100 cs_radius_10"
         src="/images/portfolio/pd2.jpg"
         alt="Thumb"
@@ -46,7 +59,7 @@ const page = () => {
         Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
         vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat
         vitae, eleifend ac, enim.
-      </p>
+      </p> */}
     </>
   );
 };

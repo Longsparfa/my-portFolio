@@ -21,7 +21,6 @@ const Layout = async ({ children, params }) => {
   const proId = projects
     .map((pro) => pro.id)
     .find((proId) => proId === Number(id));
-  console.log(proId);
 
   return (
     <div>

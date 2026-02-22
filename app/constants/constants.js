@@ -23,6 +23,11 @@ export const projects = [
     source: "https://github.com/Longsparfa/next-stella",
     visit: "https://stellauxglobal.com",
     id: 4,
+    overview: [],
+    proChallenge: [],
+    devResearch: [],
+    devApproach: [],
+    theSolution: [],
   },
   {
     title: "Healthcare Dashboard",
@@ -108,5 +113,5 @@ export const TimeLineData = [
 ];
 
 export function getProjectById(id) {
-  return projects.find(project => project.id === Number(id))
+  return projects.find((project) => project.id === Number(id));
 }

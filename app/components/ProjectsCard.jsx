@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -16,10 +17,12 @@ const ProjectsCard = ({ title, img, id }) => {
         href={`/portfolio/${id}/portfolio-details`}
         className="block min-h-[200px] relative overflow-hidden thumbnail"
       >
-        <img
+        <Image
           src={img}
-          alt=""
-          className="w-[100%] transition-[all_0.4s_ease] transform-[scale(1.07)] "
+          alt="project"
+          width={1000}
+          height={1000}
+          // className="w-[100%] transition-[all_0.4s_ease] transform-[scale(1.07)] "
         />
       </Link>
       <div className="hover:bottom-[0px] pro_title">
