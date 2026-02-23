@@ -87,15 +87,26 @@ const Projects = () => {
           <div className="mb-[80px]">
             <ProjectsCard
               title="Sparkling Events"
-              img="/images/p9.png"
+              img="/images/P9.png"
               id={9}
+              alt="Sparkling"
             />
           </div>
           <div className="mb-[80px]">
-            <ProjectsCard title="Stellaux Global" img="/images/p4.png" id={4} />
+            <ProjectsCard
+              title="Stellaux Global"
+              img="/images/P4.png"
+              id={4}
+              alt="Stellaux"
+            />
           </div>
           <div className="mb-[40px] ">
-            <ProjectsCard title="Ideoshpere" img="/images/p2.png" id={2} />
+            <ProjectsCard
+              title="Ideoshpere"
+              img="/images/P2.png"
+              id={2}
+              alt="Ideoshpere"
+            />
           </div>
           <Link
             href="/portfolio"
