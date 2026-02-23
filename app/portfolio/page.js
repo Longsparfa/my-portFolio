@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Header from "../components/Header";
 import { projects } from "../constants/constants";
 import PortfolioCard from "../components/PortfolioCard";
 
